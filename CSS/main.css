@@ -1,0 +1,132 @@
+main {
+    min-height: 100vh;
+    width: 80%;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    margin-top: 65px;
+    padding: 10px;
+}
+
+.aboutBanner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+}
+.aboutBanner-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.aboutBanner-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBanner-right img {
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+.monthsBooks {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px black;
+}
+
+.monthsBooks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.monthsBooks ul li {
+    list-style: none;
+}
+
+.Socials {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    text-align: justify;
+}
+
+.contact-right ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    flex: 1;
+
+}
+
+.contact-right h1 {
+    flex: 1;
+}
+
+.contact-right p {
+    flex: 1;
+}
+
+.contact-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-left img {
+    max-height: 500px;
+    border-radius: 5px;
+}
